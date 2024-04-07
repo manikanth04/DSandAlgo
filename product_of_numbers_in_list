@@ -1,0 +1,29 @@
+'''
+Given 3 numbers, you are asked to find multiplication of those 3 numbers.
+
+Input Format
+
+A single line consists of 3 numbers, separated by space.
+
+Constraints
+
+Each number is between 1 to 100.
+
+Output Format
+
+Single line consisting of multiplication of 3 numbers.
+'''
+
+lst=[]
+prod=1
+input_str=input()
+lst=list(input_str.split(' '))
+
+
+
+for i in range(len(lst)):
+    prod=prod*int(lst[i])
+    
+print(prod)
+       
+          
