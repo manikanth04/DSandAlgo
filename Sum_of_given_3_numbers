@@ -1,0 +1,29 @@
+'''
+StandardIO-I
+Given 3 numbers, you are asked to find sum of those 3 numbers.
+
+Input Format
+
+First 3 lines consists of 3 numbers, one per line
+
+Constraints
+
+Each number is between 1 to 1000.
+
+Output Format
+
+Single line consisting of a number - which is sum of 3 numbers.
+'''
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+lst=[]
+for i in range(3):
+    input_string=input()
+    lst.append(int(input_string))
+
+
+
+sum=0
+for i in range(len(lst)):
+    sum=sum+int(lst[i])
+    
+print(sum)
